@@ -1,6 +1,8 @@
-package controller;
+package kz.dar.academy.backend.controller;
 
-import feign.EmployeeFeign;
+
+import kz.dar.academy.backend.feign.EmployeeFeign;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
